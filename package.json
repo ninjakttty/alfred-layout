@@ -7,13 +7,13 @@
   "author": {
     "name": "Yuri Parsons",
     "email": "yuri@ninjakitty.net",
-    "url": "ninjakitty.net"
+    "url": "https://ninjakitty.net"
   },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
