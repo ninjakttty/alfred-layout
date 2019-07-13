@@ -1,11 +1,11 @@
 {
   "name": "alfred-layout",
-  "version": "0.0.0",
-  "description": "A Moom based layout manager",
+  "version": "0.0.1",
+  "description": "A simple layout manager",
   "license": "MIT",
-  "repository": "ninjakttty/alfred-layout",
+  "repository": "git@github.com:ninjakttty/alfred-layout.git",
   "author": {
-    "name": "Yuri Parsons",
+    "name": "Yuri A. Parsons",
     "email": "yuri@ninjakitty.net",
     "url": "https://ninjakitty.net"
   },
@@ -14,13 +14,14 @@
   },
   "scripts": {
     "test": "ava",
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "postinstall": "alfred-link",
+    "preuninstall": "alfred-unlink"
   },
   "files": [
     "index.js",
     "icon.png",
-    "info.plist"
+    "info.plist",
+    "layouts.json"
   ],
   "keywords": [
     "alfred",
@@ -29,11 +30,11 @@
   ],
   "dependencies": {
     "alfred-link": "~0.3.0",
-    "alfy": "^0.6.0"
+    "alfy": "^0.9.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "xo": "^0.17.0"
+    "ava": "^2.2.0",
+    "xo": "^0.24.0"
   }
 }

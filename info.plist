@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>layout</string>
 	<key>bundleid</key>
 	<string>net.ninjakitty.layout</string>
 	<key>category</key>
@@ -14,7 +12,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FC5D04C2-E028-4019-B10F-840258794CD4</string>
+				<string>A935B52A-9BD7-457F-B29A-6C9706A176DB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D500E15-0838-440B-978F-5A0656330918</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -26,24 +34,24 @@
 	</dict>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>layout</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<true/>
+				<key>processoutputs</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.debug</string>
 			<key>uid</key>
-			<string>FC5D04C2-E028-4019-B10F-840258794CD4</string>
+			<string>A935B52A-9BD7-457F-B29A-6C9706A176DB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -52,12 +60,18 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>layout</string>
+				<string>lay</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -88,6 +102,32 @@
 			<key>uid</key>
 			<string>239B9680-B0D8-4991-AC7A-E7FAF434926C</string>
 			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  set theQuery to item 1 of argv
+     tell application "System Events" to keystroke theQuery using {shift down, control down}
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6D500E15-0838-440B-978F-5A0656330918</string>
+			<key>version</key>
 			<integer>2</integer>
 		</dict>
 	</array>
@@ -95,17 +135,24 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>FC5D04C2-E028-4019-B10F-840258794CD4</key>
+		<key>239B9680-B0D8-4991-AC7A-E7FAF434926C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>150</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>95</integer>
 		</dict>
-		<key>239B9680-B0D8-4991-AC7A-E7FAF434926C</key>
+		<key>6D500E15-0838-440B-978F-5A0656330918</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>625</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>A935B52A-9BD7-457F-B29A-6C9706A176DB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
