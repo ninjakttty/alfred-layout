@@ -1,6 +1,6 @@
 {
   "name": "alfred-layout",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple layout manager",
   "license": "MIT",
   "repository": "git@github.com:ninjakttty/alfred-layout.git",
@@ -30,10 +30,10 @@
     "alfy"
   ],
   "dependencies": {
-    "alfred-link": "~0.3.0",
     "alfy": "^0.9.0"
   },
   "devDependencies": {
+    "alfred-link": "~0.3.0",
     "alfy-test": "^0.3.0",
     "ava": "^2.2.0",
     "xo": "^0.24.0"
