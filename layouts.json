@@ -1,21 +1,13 @@
 [
-  { "name": "topleft", "display": "Top left", "key": "Q" },
-  { "name": "topright", "display": "Top right", "key": "E" },
-  { "name": "togglefullscreen", "display": "Toggle full screen mode", "key": "S" },
-  { "name": "full", "display": "Full", "key": "S" },
-  { "name": "left", "display": "Left", "key": "A" },
-  { "name": "right", "display": "Right", "key": "D" },
-  { "name": "top", "display": "Top", "key": "W" },
-  { "name": "bottom", "display": "Bottom", "key": "X" },
+  { "name": "movetopleft", "display": "Move to top left", "key": "Q" },
+  { "name": "movetopright", "display": "Move to top right", "key": "W" },
+  { "name": "left", "display": "Left", "key": "left_arrow" },
+  { "name": "right", "display": "Right", "key": "right_arrow" },
+  { "name": "movebottomleft", "display": "Move to bottom left", "key": "Z" },
+  { "name": "movebottomright", "display": "Move to bottom right", "key": "X" },
+  { "name": "full", "display": "Full", "key": "A" },
+  { "name": "top", "display": "Top", "key": "up_arrow" },
+  { "name": "bottom", "display": "Bottom", "key": "down_arrow" },
+  { "name": "revert", "display": "Revert to Original Dimensions", "key": "S" }
 
-  { "name": "bottomleft", "display": "Bottom left", "key": "Z" },
-  { "name": "bottomright", "display": "Bottom right", "key": "C" },
-  { "name": "center", "display": "Center", "key": "" },
-  { "name": "movecenter", "display": "Move to center", "key": "" },
-  { "name": "movetopleft", "display": "Move to top left", "key": "" },
-  { "name": "movebottomleft", "display": "Move to bottom left", "key": "" },
-  { "name": "movetopright", "display": "Move to top right", "key": "" },
-  { "name": "movebottomright", "display": "Move to bottom right", "key": "" },
-  { "name": "grow", "display": "Grow window", "key": "" },
-  { "name": "shrink", "display": "Shrink window", "key": "" }
 ]

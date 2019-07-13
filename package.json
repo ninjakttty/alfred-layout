@@ -14,6 +14,7 @@
   },
   "scripts": {
     "test": "ava",
+    "link": "npm i -g alfred-layout",
     "postinstall": "alfred-link",
     "preuninstall": "alfred-unlink"
   },
