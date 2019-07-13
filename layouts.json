@@ -1,0 +1,21 @@
+[
+  { "name": "topleft", "display": "Top left", "key": "Q" },
+  { "name": "topright", "display": "Top right", "key": "E" },
+  { "name": "togglefullscreen", "display": "Toggle full screen mode", "key": "S" },
+  { "name": "full", "display": "Full", "key": "S" },
+  { "name": "left", "display": "Left", "key": "A" },
+  { "name": "right", "display": "Right", "key": "D" },
+  { "name": "top", "display": "Top", "key": "W" },
+  { "name": "bottom", "display": "Bottom", "key": "X" },
+
+  { "name": "bottomleft", "display": "Bottom left", "key": "Z" },
+  { "name": "bottomright", "display": "Bottom right", "key": "C" },
+  { "name": "center", "display": "Center", "key": "" },
+  { "name": "movecenter", "display": "Move to center", "key": "" },
+  { "name": "movetopleft", "display": "Move to top left", "key": "" },
+  { "name": "movebottomleft", "display": "Move to bottom left", "key": "" },
+  { "name": "movetopright", "display": "Move to top right", "key": "" },
+  { "name": "movebottomright", "display": "Move to bottom right", "key": "" },
+  { "name": "grow", "display": "Grow window", "key": "" },
+  { "name": "shrink", "display": "Shrink window", "key": "" }
+]
