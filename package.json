@@ -15,8 +15,8 @@
   "scripts": {
     "test": "ava",
     "link": "npm i -g alfred-layout",
-    "postinstall": "alfred-link",
-    "preuninstall": "alfred-unlink"
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
   "files": [
     "index.js",
